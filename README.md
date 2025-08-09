@@ -46,7 +46,7 @@ jupyter notebook gender_predictor.ipynb
 
 ---
 
-## 💻 Example Output
+## Example Output
 ```
 Epoch  950 | loss: 0.0185
 Epoch 1000 | loss: 0.0168
@@ -66,7 +66,7 @@ Epoch 1000 | loss: 0.0168
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Feature Scaling**
    ```python
@@ -92,22 +92,11 @@ Epoch 1000 | loss: 0.0168
 
 ---
 
-## 🧮 Network Diagram
-```
-   Weight (kg) ─┐
-                │   w1, w2          w5
-                ▼    ┌─── Hidden 1 ───┐
-   Height (cm) ─┼──► h1               │
-                │   w3, w4          w6
-                ▼    └─── Hidden 2 ───┘
-                           │
-                           ▼
-                        Output
-```
-
+## Network Diagram
+![Alt text](https://i.imgur.com/7OYpF0j.png "Neural Network Diagram")
 ---
 
-## 📜 License
+## License
 This project is licensed under the **MIT License** – you can freely use, modify, and distribute it.
 
 ---
