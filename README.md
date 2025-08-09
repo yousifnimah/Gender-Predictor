@@ -36,12 +36,12 @@ cd GenderPredictor
 
 ### 2. Install dependencies
 ```bash
-pip install numpy
+pip install -r requirements.txt
 ```
 
 ### 3. Run training
 ```bash
-python gender_predictor.py
+jupyter notebook gender_predictor.ipynb
 ```
 
 ---
